@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: #0d0d0d;
+    height: 200px;
+    color: red;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 140%;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    padding-right: 12px;
+}
+
+.to {
+    color: #4ea8de;
+}
+.do {
+    color: #5e60ce;
+}

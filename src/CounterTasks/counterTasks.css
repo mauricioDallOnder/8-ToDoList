@@ -1,0 +1,60 @@
+.tasks-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    width: 736px;
+    margin-top: 91px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tasks-header {
+    display: flex;
+    gap: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    align-content: center;
+}
+
+.tasks-created,
+.completeTasks {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.tasks-created > h1,
+.completeTasks > h1 {
+    font-size: 14px;
+    width: 78px;
+    margin: auto;
+}
+
+.tasks-created > h1 {
+    color: #4ea8de;
+    text-align: left;
+}
+.completeTasks > h1 {
+    color: #8284fa;
+}
+
+.Counter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60px;
+    border-radius: 16px;
+    padding: 8px;
+    gap: 8px;
+    background-color: #333333;
+    color: #d9d9d9;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+.Counter > span {
+    margin: auto;
+}
